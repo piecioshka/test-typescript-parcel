@@ -13,10 +13,13 @@
         "preclear": "clear",
         "clear": "rm -rf dist/ .cache/",
         "clear:all": "rm -rf node_modules/ && npm run clear",
+        "start": "parcel index.html",
+        "build": "parcel build --public-url . index.html",
         "count": "find . -name '*.ts' -not -path './node_modules/*' | xargs wc -l | sort -r"
     },
     "dependencies": {},
     "devDependencies": {
+        "parcel-bundler": "^1.12.3",
         "typescript": "^2.6.2"
     },
     "repository": {
