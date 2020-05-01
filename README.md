@@ -16,7 +16,7 @@ npm start
 
 ```bash
 npm run build
-# open "dist/idnex.html" in browser
+# open "dist/index.html" in browser
 ```
 
 ## License
