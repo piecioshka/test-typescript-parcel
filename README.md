@@ -2,7 +2,7 @@
 
 :ledger: Use Parcel to run project with TypeScript files.
 
-## Demo 🚀
+## Demo 🎉
 
 <https://piecioshka.github.io/test-typescript-parcel/>
 
